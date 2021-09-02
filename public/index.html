@@ -57,5 +57,21 @@
         </div>
     </div>
   </form>
+
+    <div class="container">
+            <div class="row mt-4">
+                <div class="col-sm-6">
+                    <label class="form-label">Mensajes del servidor</label>
+                    <div id="messages"></div>
+                </div>
+                <div class="col-sm-5">
+                    <form onsubmit="return addMessage(this)">
+                      <input type="email" id="username" placeholder="Tu mail" >   
+                      <input type="text" id="texto" placeholder="Cuéntanos algo...">  
+                      <input type="submit" class="btn btn-primary mt-2" value="Enviar!">
+                    </form>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
